@@ -1,0 +1,15 @@
+.navbar {
+    background: black;
+}
+
+.navbar a {
+    color: rgb(245, 242, 242);
+}
+
+a[href="#about"] {
+    color: brown;
+}
+
+.ground {
+    background-color: red;
+}
