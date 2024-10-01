@@ -1,0 +1,58 @@
+.css-box-model {
+    width: 50vw;
+    margin: 50px auto;
+}
+
+.css-box-model div {
+    border: 1px dashed #605d5c;
+    margin: 10px 20px 20px 20px;
+    position: relative;
+}
+
+.css-box-model .margin {
+    background: #FF966F;
+}
+
+.css-box-model .margin::before {
+    content: 'margin';
+}
+
+.css-box-model div:before {
+    padding-left: 8px;
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.css-box-model .border {
+    background: #FFE8C6;
+}
+
+.css-box-model .border::before {
+    content: 'border';
+}
+
+.css-box-model .padding {
+    background: #85EA85;
+}
+
+.absolute {
+    font-size: 10px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 8px;
+    margin: 0;
+}
+
+/* .css-box-model .padding::before {
+    content: 'padding';
+} */
+
+.css-box-model .content {
+    background: #A3D2E2;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 20px;
+}
