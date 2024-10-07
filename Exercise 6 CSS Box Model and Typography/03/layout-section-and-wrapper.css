@@ -1,0 +1,41 @@
+body {
+    border: 2px solid #008e00;
+    margin: 77px 0;
+    height: 675px;
+    padding: 0;
+}
+
+section.header,
+section.banner,
+section.articles,
+section.footer {
+    border: 2px solid #000000;
+    margin: 27px 26px;
+    height: 126px;
+    padding: 0;
+}
+
+.header header,
+.banner div,
+.articles div,
+.footer footer {
+    border: 2px solid #0000ff;
+    margin: 26px 98px;
+    height: 50px;
+    padding: 10px;
+}
+
+.header h1,
+.banner p,
+.articles p,
+.footer p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: -1px;
+
+    font-size: small;
+    font-weight: 700;
+    margin-left: 16px;
+    margin-top: 17px;
+}
