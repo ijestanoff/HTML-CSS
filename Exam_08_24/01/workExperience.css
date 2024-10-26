@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css2?family=Margarine&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Margarine", monospace;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    font: 14px/1.5 "Margarine", sant-serif;
+}
+
+body, input, button, textarea {
+    font: inherit;
+}
+
+body {
+    padding: 2em;
+    background: #fff0e4;
+}
+
+.main {
+    display: flex;
+    max-width: 1400px;
+    margin: 8.7em auto;
+    gap: 1em;
+}
+
+.person {
+    flex: 1 1 32%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    padding: 0.9em 1.2em 5em 1.2em;
+}
+
+.work-experience {
+    flex: 1 1 calc(68% - 1em);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    padding: 0 2em 3em 2em;
+}
+
+h2 {
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+.person h2 {
+    margin-bottom: 0.3em;
+}
+
+.icon-text i{
+    color: #2991e6;
+    padding-top: 3px;
+}
+
+.icon-text {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.separator {
+    border-top: 1px solid #b9b9b9;
+    margin-top: 1em;
+}
+
+.bar {
+    color: white;
+    background: #2991e6;
+    border-radius: 2em;
+    text-align: center;
+    font-size: 0.92em;
+}
+
+.knowage,
+.bar {
+    margin-top: 1em;
+}
+
+.bar-90 {
+    max-width: 90%;
+}
+
+.bar-80 {
+    max-width: 80%;
+}
+
+.bar-75 {
+    max-width: 75%;
+}
+
+.bar-50 {
+    max-width: 50%;
+}
+
+.work-experience h2{
+    text-align: center;
+    margin: 1.8em auto 1em auto;
+}
+
+.work-experience h3{
+    opacity: 0.6;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.work-experience data {
+    color:#2991e6;
+    font-size: 1.1em;
+}
+
+.work-experience p {
+    margin-top: 1.3em;
+}

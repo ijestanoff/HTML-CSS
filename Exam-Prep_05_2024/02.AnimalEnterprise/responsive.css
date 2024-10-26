@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px){
+    .home-header {
+        height: auto;
+        padding-top: 10px auto;
+        display: block;
+    }
+
+    .home-nav{
+        /* margin-top: 30px; */
+        padding-left: 0;
+    }
+
+    .navigation-links-nav {
+        flex-direction: column;
+        align-items: first baseline;
+    }
+
+    .navigation-links-text1,
+    .navigation-links-text {
+        margin-bottom: 14px;
+    }
+
+    .home-blog {
+
+    }
+
+    .home-container04{
+        width: 100%;
+        /* overflow: hidden; */
+    }
+
+} 

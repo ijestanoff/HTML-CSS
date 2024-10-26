@@ -1,0 +1,102 @@
+@media screen and (max-width: 600px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100% ;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    div.home-navbar{
+        padding-left: 70px;
+    }
+
+    button.home-cta-btn {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    h2.Section-Heading{
+        text-wrap: nowrap;
+        margin-top: 30px;
+    }
+
+    .home-heading-container{
+        width: 100%;
+    }
+
+    .home-cards-container{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .home-feature-card,
+    .home-feature-card1,
+     .home-feature-card2{
+        align-self: center;
+        width: 100%;
+    }
+
+    .home-image2, .home-image3, .home-image4{
+        width: 420px;
+        height: 320px;
+    }
+
+    span.home-text04 {
+        width: 100%;
+    }
+
+
+    .home-cards-container {
+        flex-direction: column;
+    }
+
+    .home-stats {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1150px;
+    }
+
+    .home-hero{
+        flex-direction: column;
+    }
+
+    .home-hero>div{
+        order: 2;
+    }
+
+    .home-image1 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .home-hero-text-container{
+        width: 100%;
+    }
+
+    .home-hero span{
+        margin-left: 30px;
+    }
+
+    .home-hero span:nth-last-of-type(1){
+        margin-left: 0px;
+    }
+
+    .home-hero-text-container{
+        margin-left: 0;
+    }
+
+    .home-hero button{
+        width: 35%;
+        align-self: center;
+    }
+
+
+}

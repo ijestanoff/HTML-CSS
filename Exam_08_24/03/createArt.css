@@ -1,0 +1,279 @@
+@import url(https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite PE", monospace;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    font: 14px/1.5 "Playwrite PE", sant-serif;
+}
+
+body {
+    font: inherit;
+}
+
+.body-container {
+    background: white;
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    width: 30%;
+    margin: 4.5em auto;
+    justify-content: space-around;
+    font-size: 1em;
+}
+
+header nav a,
+.contact-us>a,
+footer nav a {
+    font-family: "Roboto";
+    color: #314584;
+    font-weight: bold;
+    font-size: 1.6em;
+    letter-spacing: 1px;
+}
+
+header nav a:nth-child(1) {
+    color: #ff3946;
+}
+
+.contact-us {
+    border: 4px solid #ff3946;
+    padding: 1.5em 3em;
+    border-radius: 8%;
+    background: #f0f0f0;
+    margin: 1.5em auto;
+    width: 18em;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.contact-us a {
+    text-wrap: nowrap;
+    letter-spacing: normal;
+}
+
+.first-row {
+    display: flex;
+    width: 100%;
+    padding: 7em 8em 0 8em;
+}
+
+.first-row div:nth-child(1){
+    flex: 0 0 45%;
+}
+
+.first-row p:nth-of-type(1) {
+    margin-top: 1.5em;
+}
+
+.first-row h1 {
+    font-size: 6.2em;
+    letter-spacing: 0.02em;
+    color: #314584;
+    line-height: 1.95;
+}
+
+.first-row p{
+    font-size: 1.6em;
+    color: #6e757a;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+}
+
+.oval-link {
+    display: flex;
+    gap: 3em;
+}
+
+.oval-link a{
+    font-family: "Roboto";
+    font-size: 1.4em;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1.1em 2.3em;
+    border-radius: 2em;
+    margin-top: 2em;
+    letter-spacing: 1.5px;
+    color:#314584
+}
+
+.oval-link a:nth-child(1){
+    background: #ff3946;
+    color: white;
+}
+
+.first-row div:nth-child(2){
+    flex: 0 0 55%;
+    overflow: hidden;
+}
+
+.first-row div:nth-child(2)>img {
+    max-width: 125%;   
+    max-height: 100%;
+    position: relative;
+    left: -12.5%;
+    top: -9%;
+}
+
+.section-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 98.5%;
+    color:#314584;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 0 auto;
+}
+
+.second-row {
+    margin-top: -30px;
+}
+
+.section-row img{
+    margin: 3.5em 0 3.3em 0;
+    max-width: 19%;
+}
+
+.section-row h2{
+    font-size: 2.8em;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+.section-row p{
+    font-size: 1.4em;
+    margin: 1em 0 3.5em 0;
+    letter-spacing: 0.7px;
+}
+
+.bubble {
+    position: absolute;
+    width: 31em; 
+    height: auto;
+    z-index: 1;
+}
+
+.bubble-left {
+    top: 98em;
+    left: -9em;
+}
+
+.bubble-right {
+    top: 145em;
+    left: 115em;
+}
+
+.third-row{
+    margin-top: 0.8em;
+}
+
+.fourth-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#314584;
+    margin: 8em auto 0 auto;
+}
+
+.fourth-row img {
+    width: 51em; 
+    height: auto;
+    margin-bottom: 7.5em;
+}
+
+.fourth-row h3 {
+    color: #ff3946;
+    font-size: 1.45em;
+    letter-spacing: 1px;
+    margin-bottom: 1.5em;
+}
+
+.fourth-row h3:nth-of-type(2) {
+    margin-top: 5.6em;
+}
+
+.fourth-row h2 {
+    font-size: 3.6em;
+}
+
+.fourth-row p {
+    margin-top: 1em;
+    font-size: 1.7em;
+    max-width: 55%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    line-height: 1.6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    margin-top: 2.7em;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color: white;
+}
+
+form input,
+form textarea {
+    background: #314584;
+    border: none;
+    border-radius: 1.5em;
+    width: 100%;
+    margin: 0.6em;
+    padding: 1.3em;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+form textarea {
+    min-height: 13em;
+    margin-top: 2em;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background: #314584;
+    color: white;
+    align-items: center;
+    margin-top: 2em;
+}
+
+footer nav {
+    min-width: 35.5%;
+    margin: 6.5em auto 3em auto;
+}
+
+footer nav a{
+    color: white;
+} 
+
+footer p{
+    margin-bottom: 5em;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+

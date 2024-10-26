@@ -1,0 +1,246 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", monospace;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    font: 14px/1.5 "Lato", sant-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Montserrat", monospace;
+}
+
+body {
+    font: inherit;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+header {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    min-height: 4.1em;
+}
+
+header img {
+    height: 3.8em;
+}
+
+header nav {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex: 0 0 24%;
+    font-size: 1.45em;
+    margin-top: 0.6em;
+    font-weight: 700;
+}
+
+.music-background {
+    position: absolute;
+    top: 8.5em;
+    max-width: 61.8em;
+}
+
+.top-section {
+    background: #1db954;
+    min-height: 26.75em;
+    color: white;
+    padding: 4.15em;
+}
+
+.top-section h2 {
+    text-align: center;
+    font-size: 2.15em;
+}
+
+.plan-section {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    gap: 16em;
+    top: 14em;
+    height: 36em;
+}
+
+.plan-section>div{
+    background: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
+    width: 37em;
+    max-width: 38em;
+    border-radius: 1em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-section h2 {
+    font-size: 2.1em;
+    text-align: center;
+    font-weight: 700;
+    opacity: 0.7;
+    margin-bottom: 2.1em;
+    margin-top: 1em;
+}
+
+.plan-section li{
+    font-size: 1.4em;
+    opacity: 0.76;
+    margin-left: 3.2em;
+    margin-bottom: 0.6em;
+    line-height: 1.2;
+    list-style-type: circle;
+}
+
+.plan-section a{
+    background: #1db954;
+    width: 16em;
+    align-self: center;
+    text-align: center;
+    text-wrap: nowrap;
+    padding: 0.6em;
+    border-radius: 2em;
+    color: white;
+    font-family: "Montserrat", monospace;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 1.4em;
+}
+
+.left-plan div,
+.right-plan div{
+    background:#191414;
+    color: white;
+    font-size: 1.8em;
+    display:flex;
+    padding: 0.5em;
+    justify-content: center;
+    min-height: 80px;
+}
+
+.left-plan p,
+.right-plan p{
+    margin-top: 0.3em;
+}
+
+.left-plan span{
+    border-left: 1px solid white;
+    min-height: 50px;
+    width: 15px;
+    margin: 0 10px;
+}
+
+.right-plan h2{
+    margin-bottom: 0.5em;
+}
+
+.right-plan li{
+    margin-right: 2em;
+}
+
+.right-plan a{
+    margin-bottom: 2.6em;
+}
+
+.middle-section {
+    background: white;
+    padding: 31.35em 7em 0 7em;
+    display: flex;
+    gap: 9em;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8em;
+    flex: 0 0 59%;
+}
+
+.middle-section h3 {
+    font-size: 1.65em;
+    font-weight: 700;
+}
+
+.middle-section p {
+    font-size: 1.43em;
+    line-height: 1.2;
+}
+
+.middle-section img {
+    height: 18.5em;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 46.7em;
+}
+
+.bottom-section h1 {
+    margin-top: 1.8em;
+    font-size: 3.57em;
+}
+
+.bottom-section p {
+    font-size: 1.43em;
+    line-height: 1.2;
+}
+
+.bottom-section>p {
+    margin: 1.45em;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    background: #cccbcb;
+    width: 65%;
+    align-self:center;
+    border-radius: 0.4em;
+    overflow: hidden;
+    margin-top: 0.7em;
+}
+
+.table p:nth-child(even) {
+    background: #81d8a0;
+}
+
+.table p{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.52em;
+}
+
+.table img {
+    zoom: 125%;
+    padding: 0 3.1em;
+}
+
+footer {
+    background: #191414;
+    min-height: 11vh;
+    color: white;
+    text-align: center;
+    padding-top: 2.5em;
+}
+
+footer p {
+    font-size: 1.42em;
+}
