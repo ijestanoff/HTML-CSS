@@ -15,10 +15,6 @@ html {
     font-family:"Poppins", sant-serif;
 }
 
-/* body, input, button, textarea {
-    font: inherit;
-} */
-
 body {
     background: white;
 
@@ -111,5 +107,3 @@ main img{
     margin-top: 15px;
     letter-spacing: -1.05px;
 }
-
-
